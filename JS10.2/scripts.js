@@ -1,0 +1,16 @@
+let close = document.querySelector('.close')
+let open = document.querySelector('.bar')
+let menu = document.querySelector('.burger_menu')
+let main = document.querySelector('main')
+open.addEventListener('click', (event) => {
+    event.preventDefault()
+    menu.classList.add('open')
+    main.classList.add('open_main')
+    open.classList.add('burger_close')
+})
+close.addEventListener('click', (event) => {
+    event.preventDefault()
+    main.classList.remove('open_main')
+    open.classList.remove('burger_close')
+    menu.classList.remove('open')
+})

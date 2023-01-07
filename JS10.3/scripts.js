@@ -1,0 +1,15 @@
+let burger = document.querySelector('.burger')
+let burger2 = document.querySelector('.burger_show')
+let menu = document.querySelector('.menu')
+burger.addEventListener('click', (events) => {
+    events.preventDefault()
+    burger.classList.add('close')
+    burger2.classList.add('show')
+    menu.classList.add('show')
+})
+burger2.addEventListener('click', (event) => {
+    event.preventDefault()
+    burger2.classList.remove('show')
+    burger.classList.remove('close')
+    menu.classList.remove('show')
+})
