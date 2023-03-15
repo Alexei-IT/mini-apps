@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    position: relative;
+}
+
+.wrapp {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    text-align: center;
+}
+
+#time {
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+    border: 15px solid grey;
+}
+
+span {
+    font-family: tahoma;
+    font-size: 200px;
+    font-weight: 500;
+}
+
+.h {
+    color: red;
+}
+
+.m {
+    color: blue;
+}
+
+.s {
+    color: chartreuse;
+}
